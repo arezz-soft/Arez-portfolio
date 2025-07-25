@@ -174,9 +174,9 @@ body {
   background: #00ffff;
   animation: fillBar 1.5s ease forwards;
 }
-.bar.Eng::after { width: 85%; }
-.bar.Kurd::after { width: 80%; }
-.bar.Arab::after { width: 85%; }
+.bar.Eng::after { width: 60%; }
+.bar.Kurd::after { width: 100%; }
+.bar.Arab::after { width: 50%; }
 
 @keyframes fillBar {
   from { width: 0; }
